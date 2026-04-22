@@ -3,6 +3,7 @@ import sqlite3
 import tempfile
 from datetime import datetime, timezone
 
+import os
 import discord
 from discord import app_commands
 from discord.ext import commands, tasks
@@ -17,9 +18,9 @@ from reportlab.pdfbase.ttfonts import TTFont
 # ==============================
 # НАСТРОЙКИ
 # ==============================
-TOKEN = "MTQ5NjE3MjAzMzExNjIxMzI3OA.G9ztj3._F5oaZJ7OqyTJRyWaW5SguFl8_uQx6nWx-FKuA"
-GUILD_ID = 1360600366365937956
-BOOKING_CHANNEL_ID = 1496471838199513132
+TOKEN = os.getenv("DISCORD_TOKEN")
+GUILD_ID = int(os.getenv("GUILD_ID"))
+BOOKING_CHANNEL_ID = int(os.getenv("BOOKING_CHANNEL_ID"))
 
 DB_PATH = "bookings.db"
 DATETIME_FORMAT = "%m-%d %H:%M"
