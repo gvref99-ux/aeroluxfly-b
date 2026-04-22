@@ -17,7 +17,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 # ==============================
 # НАСТРОЙКИ
 # ==============================
-TOKEN = "MTQ5NjE3MjAzMzExNjIxMzI3OA.GDXZzi.AQY_WRhixqrdJ9NJXYUiTaSNkiVpJvnK1sVaEo"
+TOKEN = "MTQ5NjE3MjAzMzExNjIxMzI3OA.G9ztj3._F5oaZJ7OqyTJRyWaW5SguFl8_uQx6nWx-FKuA"
 GUILD_ID = 1360600366365937956
 BOOKING_CHANNEL_ID = 1496471838199513132
 
